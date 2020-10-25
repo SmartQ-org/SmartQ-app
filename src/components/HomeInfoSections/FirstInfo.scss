@@ -1,0 +1,33 @@
+.first-info-container {
+  background-color: #293241;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .text-container {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    padding: 5%;
+
+    .paragraph {
+      padding-top: 5%;
+    }
+
+    .title {
+      padding-bottom: 2%;
+    }
+  }
+}
+
+.img-container {
+  width: 50%;
+  overflow: hidden;
+  height: auto;
+  padding: 5%;
+
+  .hero-img {
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+}

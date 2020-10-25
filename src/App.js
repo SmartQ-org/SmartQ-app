@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import SignUpPage from "./pages/SignUpPage/SignUpPage";
-import TestComponent from "./pages/TestComponent"; 
+import HiddenContent from "./pages/HiddenContent"; 
 
 export default function App() {
   return (
@@ -31,9 +31,7 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route exact path="/">
-            <HomePage />
-          </Route>
+          <Route exact path="/" component={HomePage}/>
           <Route path="/contact">
             <ContactPage />
           </Route>
@@ -47,7 +45,7 @@ export default function App() {
             <AboutPage />
           </Route>
           <Route path="/hidden-content">
-            <TestComponent />
+            <HiddenContent />
           </Route>
         </Switch>
       </div>
