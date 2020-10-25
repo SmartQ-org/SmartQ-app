@@ -2,6 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage/ContactPage";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import SignUpPage from "./pages/SignUpPage/SignUpPage";
+import TestComponent from "./pages/TestComponent"; 
 
 export default function App() {
   return (
@@ -15,17 +19,35 @@ export default function App() {
             <li>
               <Link to="/about">About</Link>
             </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
           </ul>
         </nav>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route path="/contact">
+            <ContactPage />
+          </Route>
+          <Route path="/login">
+            <LoginPage />
+          </Route>
+          <Route path="/sign-up">
+            <SignUpPage />
+          </Route>
           <Route path="/about">
             <AboutPage />
           </Route>
-          <Route path="/">
-            <HomePage />
+          <Route path="/hidden-content">
+            <TestComponent />
           </Route>
         </Switch>
       </div>

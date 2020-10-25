@@ -1,0 +1,25 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container-size {
+    width: 20%;
+    background-color: rgba(125, 120, 120, 0.658);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .signup-container-size {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+}
