@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-function AboutPage() {
+function Alert() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -32,4 +32,4 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default Alert;

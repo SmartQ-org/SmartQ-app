@@ -1,0 +1,57 @@
+.about {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  .info {
+    margin: 2rem 2rem;
+
+    h3 {
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .cards {
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .card-container {
+      padding: 0.5rem;
+      margin-bottom: 10px;
+      /* opacity: 0; */
+      animation: 0.3s ease-in-out both fade-in;
+
+      .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+    }
+  }
+}
+
+@for $i from 1 through 5 {
+  .about > .cards > .card-container {
+    &:nth-child(#{$i}) {
+      // Delay the animation. Delay increases as items loop.
+      animation-delay: $i * (0.2s);
+    }
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
