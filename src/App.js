@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
+import PersonaPage from "./pages/PersonaPage";
 
 export default function App() {
   return (
@@ -15,6 +16,9 @@ export default function App() {
             <li>
               <Link to="/about">About</Link>
             </li>
+            <li>
+              <Link to="/persona">Persona</Link>
+            </li>
           </ul>
         </nav>
 
@@ -23,6 +27,9 @@ export default function App() {
         <Switch>
           <Route path="/about">
             <AboutPage />
+          </Route>
+          <Route path="/persona">
+            <PersonaPage />
           </Route>
           <Route path="/">
             <HomePage />
