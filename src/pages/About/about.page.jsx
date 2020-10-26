@@ -24,11 +24,11 @@ function About() {
       linkedin: "",
     },
     {
-      name: "Joshua ...",
+      name: "Joshua Nascimento",
       role: "Developer",
-      github: "",
+      github: "https://github.com/JoshuaNascimento",
       twitter: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/joshua-nascimento/",
     },
     {
       name: "Fahim ...",
