@@ -1,0 +1,31 @@
+.third-info-container {
+  background-color: #3d5a80;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  .text-container {
+    width: 75%;
+    height: auto;
+    overflow: hidden;
+    align-content: center;
+    padding: 10%;
+  }
+
+  .btn {
+    padding:20px 30px;
+    display:inline-block;
+    border-radius:3px;
+    border-color: #ee6c4d;
+    border-width: 5px;
+    background: transparent;
+    font-size:22px;
+    margin: -10%;
+  
+    &:hover {
+      background: #ee6c4d;
+    }
+  }
+}
+
