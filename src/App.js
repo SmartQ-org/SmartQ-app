@@ -1,8 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import ReactGA from 'react-ga';
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import PersonaPage from "./pages/PersonaPage";
+
+const initializeReactGA = () => {
+  ReactGA.initialize('{{trackingtag}}');
+  ReactGA.pageview('/homepage');
+}
 
 export default function App() {
   return (
