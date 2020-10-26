@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useLocation,
+} from "react-router-dom";
 import ReactGA from "react-ga";
 import HomePage from "./pages/HomePage/HomePage";
 import AboutPage from "./pages/About/about.page";
@@ -19,7 +25,9 @@ const initializeReactGA = () => {
   ReactGA.pageview("/homepage");
 };
 
-export default function App() {
+function App() {
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <Router>
       <div className="app">
@@ -27,19 +35,29 @@ export default function App() {
           <Navbar.Brand className="brand">SmartQ</Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link>
-              <Link to="/">Home</Link>
+              <Link className="link" to="/">
+                Home
+              </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/about">About</Link>
+              <Link className="link" to="/about">
+                About
+              </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/persona">Persona</Link>
+              <Link className="link" to="/persona">
+                Persona
+              </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/contact">Contact</Link>
+              <Link className="link" to="/contact">
+                Contact
+              </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/login">Login</Link>
+              <Link className="link" to="/login">
+                Login
+              </Link>
             </Nav.Link>
           </Nav>
         </Navbar>
@@ -77,3 +95,5 @@ export default function App() {
     </Router>
   );
 }
+
+export default App;
