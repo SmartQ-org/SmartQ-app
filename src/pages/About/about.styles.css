@@ -1,0 +1,31 @@
+.about {
+  text-align: center;
+  /* color: aqua; */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.about > h1 {
+  margin-bottom: 1rem;
+}
+
+.about > .cards {
+  width: 85vw;
+  /* border: 2px solid red; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.about > .cards > .card-container {
+  padding: 0.5rem;
+  /* opacity: 0; */
+  transition: opacity 1s;
+}
+
+.about > .cards > .card-container.mounted {
+  padding: 0.5rem;
+  color: #ff3;
+  opacity: 1;
+}
