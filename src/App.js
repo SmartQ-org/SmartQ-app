@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useLocation,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ReactGA from "react-ga";
 import HomePage from "./pages/HomePage/HomePage";
 import AboutPage from "./pages/About/about.page";
@@ -26,8 +20,6 @@ const initializeReactGA = () => {
 };
 
 function App() {
-  const location = useLocation();
-  console.log(location.pathname);
   return (
     <Router>
       <div className="app">
