@@ -1,23 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 import HomePage from "./pages/HomePage/HomePage";
-import AboutPage from "./pages/AboutPage";
+import AboutPage from "./pages/About/about.page";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import SignUpPage from "./pages/SignUpPage/SignUpPage";
 import HiddenContent from "./pages/HiddenContent";
 import PersonaPage from "./pages/PersonaPage";
 
+import "./App.scss";
+
 const initializeReactGA = () => {
-  ReactGA.initialize('{{trackingtag}}');
-  ReactGA.pageview('/homepage');
-}
+  ReactGA.initialize("{{trackingtag}}");
+  ReactGA.pageview("/homepage");
+};
 
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="app">
         <nav>
           <ul>
             <li>
