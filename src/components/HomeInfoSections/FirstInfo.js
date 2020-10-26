@@ -9,7 +9,7 @@ const FirstInfo = () => {
   <div className='first-info-container'>
     <div className='text-container'>
       <h6 className='title'> Our Goal </h6>
-      <h2> Keep Connected While Staying Safe
+      <h2 className='subtitle'> Keep Connected While Staying Safe
          </h2>
       <p className='paragraph'> As we progress into the new decade it is clear that the world is changing. Emphasis has been placed on increasing the efficiency 
       and safety of systems which have been in place for as long as we can remember. While some of these systems have updated with the times, the way in which we 
