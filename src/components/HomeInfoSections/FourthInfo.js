@@ -8,13 +8,12 @@ const FourthInfo = () => {
   return (
   <div className='fourth-info-container'>
     <div className='text-container'>
-      <h6 className='title'> Solution Explanation (1 of 2) </h6>
-      <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-         </h2>
-      <p className='paragraph'> Something about how all you have to do is logon with an account and you may search for and join into a virtual lineup which
-      is managed by each business invidiually. After joining the line you will be given a queue number to display your position in the line. Upon nearly reaching the front of 
-      the user is notified to be ready to enter the business. When the user reaches the front of the line, they are once again notified and provided a QR code, this code is scanned
-      by the business to confirm the customers identity and allow them into the store. </p>
+      <h6 className='title'> Virtual Queuing Done Right </h6>
+      <h2> Eliminate The Hassle Of Maintaining A Physical Line </h2>
+      <p className='paragraph'> SmartQ utilizes innovative technology to allow you to join a virtual line created by the businesses you wish to support. 
+        Upon joining you will be provided status updates on your position in line to allow for an accurate sense of your place in line. 
+        When you reach the front of the line you are notified and sent a code in which you may scan at the entrance of the business you wish to enter. 
+        It is as simple as Queue, Scan and Enter. </p>
     </div>
     <div className='img-container'>
       <HeroImage className='hero-img'/>

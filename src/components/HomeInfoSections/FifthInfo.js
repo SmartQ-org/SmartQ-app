@@ -11,12 +11,11 @@ const FifthInfo = () => {
       <HeroImage className='hero-img'/>
     </div>
     <div className='text-container'>
-      <h6 className='title'> Solution Explanation (2 of 2) </h6>
-      <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h2>
-      <p className='paragraph'> This part will go into detail about the priority queue and how it is processed before the regular queue to allow for people with special needs
-      to be seen in at first. Comparing it to most traditional lines where both people of special needs and the elderly are made to lineup with everyone else. Which can be
-      especially difficult to them depending on their situation.</p>
+      <h6 className='title'> An Equal Oppertunity System </h6>
+      <h2> Allow Those Who Need To Be Heard And Seen </h2>
+      <p className='paragraph'> SmartQ wishes to standardize a universal priority queue by providing it to all businesses when creating their virtual queue.
+      With priority queuing, a user can indicate that they are of priority needs and after confirmation of those needs will be placed into a seperate queue.
+      This queue is processed first, with the standard queue being processed after we have made sure we have provided swift service to those who require it.  </p>
     </div>
   </div>
   

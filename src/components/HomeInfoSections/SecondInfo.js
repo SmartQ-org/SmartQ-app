@@ -11,12 +11,11 @@ const SecondInfo = () => {
       <HeroImage className='hero-img'/>
     </div>
     <div className='text-container'>
-      <h6 className='title'> Talk About Disabled Priority Queue (Value Proposition 2 of 2) </h6>
-      <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h2>
-      <p className='paragraph'> Something about how traditional linups are not all made the same. With some repsecting the disabled and elderly with priority and others
-      treating them as just another person in line. This can be troublesome to those with more severe disabilities or when in the presence of dangerous circumstances like
-      extreme cold, rain, etc. That is why SmartQ implements a universal priority system in every line providing extra safety and piece of mind to those who need it the most.</p>
+      <h6 className='title'> Priority Queue System </h6>
+      <h2> Bringing Universal Priority To Those Who Need It The Most. </h2>
+      <p className='paragraph'> Traditional lineups have been around for forever, yet have had little to no change. As our society pushes for accessability and inclusiveness
+      we've left behind those who need it the most. While only a few businesses employ a form of priority line within their business, SmartQ aims to standardize this
+      nessesity. Introducing a universal high-priority queue will allow those who need, to be seen and heard when they need.</p>
     </div>
   </div>
   

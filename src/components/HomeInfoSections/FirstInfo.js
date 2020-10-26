@@ -8,12 +8,14 @@ const FirstInfo = () => {
   return (
   <div className='first-info-container'>
     <div className='text-container'>
-      <h6 className='title'> Our Goal (Value Proposition 1 of 2) </h6>
-      <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      <h6 className='title'> Our Goal </h6>
+      <h2> Keep Connected While Staying Safe
          </h2>
-      <p className='paragraph'> Something about how the world is chaning and with the increasing worry of safety and efficiency, the traditional physical lineup has not changed
-      and thus has not addressed any issue which has become prevalent into the new decade. This is where SmartQ aims to solve the issue with inovative technology to reduce
-      a busniesses reliance on physical lineups and instead rely on a virtual one to provide both the buisness and customers with a more modern form of waiting.</p>
+      <p className='paragraph'> As we progress into the new decade it is clear that the world is changing. Emphasis has been placed on increasing the efficiency 
+      and safety of systems which have been in place for as long as we can remember. While some of these systems have updated with the times, the way in which we 
+      maintain physical lines has gone unchanged, and with social distancing becoming ever-prevalent in our societies it is clear what we need to innovate on. 
+      This is where SmartQ aims to solve the issue with innovative technology to reduce a businesses reliance on physical queues and transition to a virtual, more 
+      modern form of waiting. At SmartQ we aim to assist communities by allowing them to stay connected while maintaining their safety and wellbeing.  </p>
     </div>
     <div className='img-container'>
       <HeroImage className='hero-img'/>
