@@ -9,6 +9,9 @@ import SignUpPage from "./pages/SignUpPage/SignUpPage";
 import HiddenContent from "./pages/HiddenContent";
 import PersonaPage from "./pages/PersonaPage";
 
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+
 import "./App.scss";
 
 const initializeReactGA = () => {
@@ -20,52 +23,56 @@ export default function App() {
   return (
     <Router>
       <div className="app">
-        <nav>
-          <ul>
-            <li>
+        <Navbar className="nav-bar" variant="dark">
+          <Navbar.Brand className="brand">SmartQ</Navbar.Brand>
+          <Nav className="ml-auto">
+            <Nav.Link>
               <Link to="/">Home</Link>
-            </li>
-            <li>
+            </Nav.Link>
+            <Nav.Link>
               <Link to="/about">About</Link>
-            </li>
-            <li>
+            </Nav.Link>
+            <Nav.Link>
               <Link to="/persona">Persona</Link>
-            </li>
-            <li>
+            </Nav.Link>
+            <Nav.Link>
               <Link to="/contact">Contact</Link>
-            </li>
-            <li>
+            </Nav.Link>
+            <Nav.Link>
               <Link to="/login">Login</Link>
-            </li>
-          </ul>
-        </nav>
+            </Nav.Link>
+          </Nav>
+        </Navbar>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/contact">
-            <ContactPage />
-          </Route>
-          <Route path="/login">
-            <LoginPage />
-          </Route>
-          <Route path="/sign-up">
-            <SignUpPage />
-          </Route>
-          <Route path="/about">
-            <AboutPage />
-          </Route>
-          <Route path="/persona">
-            <PersonaPage />
-          </Route>
-          <Route path="/">
-            <HomePage />
-          </Route>
-          <Route path="/hidden-content">
-            <HiddenContent />
-          </Route>
-        </Switch>
+
+        <div className="content">
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/contact">
+              <ContactPage />
+            </Route>
+            <Route path="/login">
+              <LoginPage />
+            </Route>
+            <Route path="/sign-up">
+              <SignUpPage />
+            </Route>
+            <Route path="/about">
+              <AboutPage />
+            </Route>
+            <Route path="/persona">
+              <PersonaPage />
+            </Route>
+            <Route path="/">
+              <HomePage />
+            </Route>
+            <Route path="/hidden-content">
+              <HiddenContent />
+            </Route>
+          </Switch>
+        </div>
       </div>
     </Router>
   );
