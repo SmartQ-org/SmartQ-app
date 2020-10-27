@@ -7,7 +7,7 @@ import ContactPage from "./pages/ContactPage/ContactPage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import SignUpPage from "./pages/SignUpPage/SignUpPage";
 import HiddenContent from "./pages/HiddenContent";
-import PersonaPage from "./pages/PersonaPage";
+import FeaturesPage from "./pages/FeaturesPage/FeaturesPage";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -37,8 +37,8 @@ function App() {
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link className="link" to="/persona">
-                Persona
+              <Link className="link" to="/features">
+                Features
               </Link>
             </Nav.Link>
             <Nav.Link>
@@ -72,8 +72,8 @@ function App() {
             <Route path="/about">
               <AboutPage />
             </Route>
-            <Route path="/persona">
-              <PersonaPage />
+            <Route path="/features">
+              <FeaturesPage />
             </Route>
             <Route path="/">
               <HomePage />
