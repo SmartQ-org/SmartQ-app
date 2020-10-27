@@ -38,11 +38,12 @@ function About() {
       linkedin: "",
     },
     {
-      name: "Sagna ...",
+      name: "Sagna Lee",
       role: "Marketing",
       github: "",
       twitter: "",
-      linkedin: "",
+      linkedin:
+        "https://www.linkedin.com/in/sanga-l-2a2b11174/?msgControlName=reply_to_sender&msgConversationId=6726497172298235904&msgOverlay=true",
     },
   ];
 
