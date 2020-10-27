@@ -17,11 +17,11 @@ function About() {
       linkedin: "https://www.linkedin.com/in/yash-pandya-8624b4a8/",
     },
     {
-      name: "Jason ...",
+      name: "Jason Huang",
       role: "Developer",
-      github: "",
+      github: "https://github.com/JayTLH",
       twitter: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/jason-tlh/",
     },
     {
       name: "Joshua Nascimento",
