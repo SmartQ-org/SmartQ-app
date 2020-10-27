@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SmartQ-app/static/css/main.293c13d4.chunk.css",
-    "main.js": "/SmartQ-app/static/js/main.dd193f4e.chunk.js",
-    "main.js.map": "/SmartQ-app/static/js/main.dd193f4e.chunk.js.map",
+    "main.css": "/SmartQ-app/static/css/main.64197241.chunk.css",
+    "main.js": "/SmartQ-app/static/js/main.e140bb4c.chunk.js",
+    "main.js.map": "/SmartQ-app/static/js/main.e140bb4c.chunk.js.map",
     "runtime-main.js": "/SmartQ-app/static/js/runtime-main.d923a8bf.js",
     "runtime-main.js.map": "/SmartQ-app/static/js/runtime-main.d923a8bf.js.map",
     "static/js/2.d5af77a0.chunk.js": "/SmartQ-app/static/js/2.d5af77a0.chunk.js",
     "static/js/2.d5af77a0.chunk.js.map": "/SmartQ-app/static/js/2.d5af77a0.chunk.js.map",
     "index.html": "/SmartQ-app/index.html",
-    "precache-manifest.d4a04f3b78785d537fa472fd6c155ee5.js": "/SmartQ-app/precache-manifest.d4a04f3b78785d537fa472fd6c155ee5.js",
+    "precache-manifest.dd564f7f67fdb76c4fd5f30a737b07c6.js": "/SmartQ-app/precache-manifest.dd564f7f67fdb76c4fd5f30a737b07c6.js",
     "service-worker.js": "/SmartQ-app/service-worker.js",
-    "static/css/main.293c13d4.chunk.css.map": "/SmartQ-app/static/css/main.293c13d4.chunk.css.map",
+    "static/css/main.64197241.chunk.css.map": "/SmartQ-app/static/css/main.64197241.chunk.css.map",
     "static/js/2.d5af77a0.chunk.js.LICENSE.txt": "/SmartQ-app/static/js/2.d5af77a0.chunk.js.LICENSE.txt",
     "static/media/destinations.49599530.svg": "/SmartQ-app/static/media/destinations.49599530.svg",
     "static/media/phone.5a96cdb7.svg": "/SmartQ-app/static/media/phone.5a96cdb7.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.d923a8bf.js",
     "static/js/2.d5af77a0.chunk.js",
-    "static/css/main.293c13d4.chunk.css",
-    "static/js/main.dd193f4e.chunk.js"
+    "static/css/main.64197241.chunk.css",
+    "static/js/main.e140bb4c.chunk.js"
   ]
 }
