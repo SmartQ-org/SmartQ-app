@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/SmartQ-app/static/css/main.293c13d4.chunk.css",
+    "main.js": "/SmartQ-app/static/js/main.6329ebf3.chunk.js",
+    "main.js.map": "/SmartQ-app/static/js/main.6329ebf3.chunk.js.map",
+    "runtime-main.js": "/SmartQ-app/static/js/runtime-main.d923a8bf.js",
+    "runtime-main.js.map": "/SmartQ-app/static/js/runtime-main.d923a8bf.js.map",
+    "static/js/2.d5af77a0.chunk.js": "/SmartQ-app/static/js/2.d5af77a0.chunk.js",
+    "static/js/2.d5af77a0.chunk.js.map": "/SmartQ-app/static/js/2.d5af77a0.chunk.js.map",
+    "index.html": "/SmartQ-app/index.html",
+    "precache-manifest.f9f4b37bf02ddfedff7d2ad097c17139.js": "/SmartQ-app/precache-manifest.f9f4b37bf02ddfedff7d2ad097c17139.js",
+    "service-worker.js": "/SmartQ-app/service-worker.js",
+    "static/css/main.293c13d4.chunk.css.map": "/SmartQ-app/static/css/main.293c13d4.chunk.css.map",
+    "static/js/2.d5af77a0.chunk.js.LICENSE.txt": "/SmartQ-app/static/js/2.d5af77a0.chunk.js.LICENSE.txt",
+    "static/media/destinations.49599530.svg": "/SmartQ-app/static/media/destinations.49599530.svg",
+    "static/media/phone.5a96cdb7.svg": "/SmartQ-app/static/media/phone.5a96cdb7.svg",
+    "static/media/profile_pic.png": "/SmartQ-app/static/media/profile_pic.5a021ab9.png",
+    "static/media/queue.svg": "/SmartQ-app/static/media/queue.5441cb6e.svg",
+    "static/media/shopping.svg": "/SmartQ-app/static/media/shopping.ebb30b9e.svg",
+    "static/media/wheelchair.f3754ca4.svg": "/SmartQ-app/static/media/wheelchair.f3754ca4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d923a8bf.js",
+    "static/js/2.d5af77a0.chunk.js",
+    "static/css/main.293c13d4.chunk.css",
+    "static/js/main.6329ebf3.chunk.js"
+  ]
+}
