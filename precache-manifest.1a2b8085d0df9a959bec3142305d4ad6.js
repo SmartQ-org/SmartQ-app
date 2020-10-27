@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c7dcaedce8ad849ad6ada6ccf213937",
+    "revision": "3b2ec992ea947fb5c0ebe94603492bb1",
     "url": "/SmartQ-app/index.html"
   },
   {
-    "revision": "fdebfab01a3e8178ac56",
-    "url": "/SmartQ-app/static/css/main.1cad4a1a.chunk.css"
+    "revision": "2a9e300d8949f9fe3598",
+    "url": "/SmartQ-app/static/css/main.716977fd.chunk.css"
   },
   {
-    "revision": "c84ac1b6f812a450e17e",
-    "url": "/SmartQ-app/static/js/2.d5af77a0.chunk.js"
+    "revision": "a3cb0897c57a7e2d6da8",
+    "url": "/SmartQ-app/static/js/2.3b970358.chunk.js"
   },
   {
     "revision": "22c95ed68071a711843b9981e2bca1af",
-    "url": "/SmartQ-app/static/js/2.d5af77a0.chunk.js.LICENSE.txt"
+    "url": "/SmartQ-app/static/js/2.3b970358.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdebfab01a3e8178ac56",
-    "url": "/SmartQ-app/static/js/main.061b527e.chunk.js"
+    "revision": "2a9e300d8949f9fe3598",
+    "url": "/SmartQ-app/static/js/main.571ac29e.chunk.js"
   },
   {
     "revision": "e4de8f56c33b45a212ee",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ebb30b9ec9cf1661fd5939da30b5a69e",
     "url": "/SmartQ-app/static/media/shopping.ebb30b9e.svg"
+  },
+  {
+    "revision": "7957cd121200a77f05e58a7300a9c3eb",
+    "url": "/SmartQ-app/static/media/smartq-logo.7957cd12.png"
   },
   {
     "revision": "f3754ca476c39bf2d454bc5c7948e435",
