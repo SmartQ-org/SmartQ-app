@@ -38,7 +38,7 @@ function App() {
             </Nav.Link>
             <Nav.Link>
               <Link className="link" to="/persona">
-                Persona
+                Features
               </Link>
             </Nav.Link>
             <Nav.Link>

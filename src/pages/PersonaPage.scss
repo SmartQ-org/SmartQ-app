@@ -99,7 +99,10 @@
 
   &__list {
     width: 100%;
-    height: 120px;
+
+    @include laptop-view {
+      height: 80px;
+    }
   }
 
   &__button {
