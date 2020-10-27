@@ -11,7 +11,7 @@ import FeaturesPage from "./pages/FeaturesPage/FeaturesPage";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-
+import logo from "./assets/smartq-logo.png";
 import "./App.scss";
 
 const initializeReactGA = () => {
@@ -24,7 +24,7 @@ function App() {
     <Router>
       <div className="app">
         <Navbar className="nav-bar" variant="dark">
-          <Navbar.Brand className="brand">SmartQ</Navbar.Brand>
+          <Navbar.Brand className="brand"><img className="logo" src={logo} alt="smart q logo"/></Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link>
               <Link className="link" to="/">
