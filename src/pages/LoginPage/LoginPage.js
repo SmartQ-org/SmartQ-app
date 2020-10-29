@@ -3,6 +3,7 @@ import { Button, Form } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import "./LoginPage.scss";
 import fire from "../../firebase";
+import checkmark from "../../assets/checkmark.png";
 
 export default function LoginPage() {
   let history = useHistory();
@@ -109,15 +110,15 @@ export default function LoginPage() {
           virtually, schedule customers check-in times, and more!
         </p>
         <div className="bullet-point">
-          <img src="checkmark.png" alt="Check mark" className="checkmark" />
+          <img src={checkmark} alt="Check mark" className="checkmark" />
           <p> Eliminate the need to monitor your total customer count </p>
         </div>
         <div className="bullet-point">
-          <img src="checkmark.png" alt="Check mark" className="checkmark" />
+          <img src={checkmark} alt="Check mark" className="checkmark" />
           <p> Get rid of long waiting lines </p>
         </div>
         <div className="bullet-point">
-          <img src="checkmark.png" alt="Check mark" className="checkmark" />
+          <img src={checkmark} alt="Check mark" className="checkmark" />
           <p> Join SmartQ and numerous companies to create virtual queues </p>
         </div>
         <Form className="email-input">
